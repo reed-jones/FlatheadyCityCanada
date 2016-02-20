@@ -51,7 +51,7 @@ var cardThree = '\
     </h3>\
     <p><a href="https://goo.gl/maps/GqHhntP9HkP2">\
         11730 Highway 16<br />\
-        Dunster B.C.<br /></a>\
+        Dunster B.C. V0J-1J0<br /></a>\
     </p>\
     <p class="email">\
         <a href="mailto:flatheadcitycanada@gmail.com">\
