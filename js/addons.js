@@ -21,10 +21,10 @@ var cardTwo = '\
     <h5>Repair Welding</h5>\
     <p>Aluminum ~ Stainless Steel ~ Cast Iron</p>\
     <p>***********************</p>\
-    <p>Metal Polishing<br />\
-        Certified<br />\
+    <p>Certified<br />\
         All Processes<br />\
-        35 Years Experience\
+        35 Years Experience<br />\
+        Metal Polishing\
     </p>\
     <p>***********************</p>\
     <h5>Rates</h5>\
