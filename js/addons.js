@@ -19,22 +19,28 @@ var cardTwo = '\
 <div class="card-block">\
     <h3 class="card-title">Services</h3>\
     <h5>Repair Welding</h5>\
-    <p>Aluminum ~ Stainless Steel ~ Cast Iron</p>\
+    <p>\
+        Aluminum ~ Stainless Steel ~ Cast Iron\
+    </p>\
     <p>***********************</p>\
-    <p>Certified<br />\
+    <p>\
+        Certified<br />\
         All Processes<br />\
         35 Years Experience<br />\
         Metal Polishing\
     </p>\
     <p>***********************</p>\
     <h5>Pickup and Delivery</h5>\
-    <p>From Prince George to Valemount</p>\
-    <p>24 Hour Turn Around</p>\
-    <p>with CityFast Express</p>\
+    <p>\
+        From Prince George to Valemount<br />\
+        24 Hour Turn Around<br />\
+        with <a href="http://www.cityfastexpress.com/">CityFast Express</a>\
+    </p>\
     <p>***********************</p>\
     <h5>Rates</h5>\
-    <p>Shop Rate: $75/Hour<br>\
-    Cash and Major Credit Cards Only\
+    <p>\
+        Shop Rate: $75/Hour<br>\
+        Cash and Major Credit Cards Only\
     </p>\
 </div>';
 
@@ -51,16 +57,20 @@ var cardThree = '\
         <a href="mailto:flatheadcitycanada@gmail.com">\
             flatheadcitycanada@gmail.com\
         </a>\
-    </p><br />\
+    </p>\
     <p>\
         Phone: (250) 968-4340<br />\
         Cell: (250) 569-4105\
     </p>\
     <p>***********************</p>\
     <h3>CityFast Express</h3>\
-    <p>Call to Schedule Pickup and Delivery<br />\
-    Phone: (250) 596-9272<br />\
-    <a href="http://www.cityfastexpress.com/">www.cityfastexpress.com</a></p>\
+    <p>\
+        Call to Schedule Pickup and Delivery<br />\
+        Phone: (250) 596-9272<br />\
+        <a href="http://www.cityfastexpress.com/">\
+            www.cityfastexpress.com\
+        </a>\
+    </p>\
 </div>';
 
 //Show and hide cards (change text of cards)
