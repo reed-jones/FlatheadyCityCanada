@@ -27,6 +27,11 @@ var cardTwo = '\
         Metal Polishing\
     </p>\
     <p>***********************</p>\
+    <h5>Pickup and Delivery</h5>\
+    <p>From Prince George to Valemount</p>\
+    <p>24 Hour Turn Around</p>\
+    <p>with CityFast Express</p>\
+    <p>***********************</p>\
     <h5>Rates</h5>\
     <p>Shop Rate: $75/Hour<br>\
     Cash and Major Credit Cards Only\
@@ -48,9 +53,14 @@ var cardThree = '\
         </a>\
     </p><br />\
     <p>\
-        Phone: 250 968 4340<br />\
-        Cell: 250 569 4105\
+        Phone: (250) 968-4340<br />\
+        Cell: (250) 569-4105\
     </p>\
+    <p>***********************</p>\
+    <h3>CityFast Express</h3>\
+    <p>Call to Schedule Pickup and Delivery<br />\
+    Phone: (250) 596-9272<br />\
+    <a href="http://www.cityfastexpress.com/">www.cityfastexpress.com</a></p>\
 </div>';
 
 //Show and hide cards (change text of cards)
