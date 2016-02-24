@@ -75,6 +75,7 @@ var cardThree = '\
 
 //Show and hide cards (change text of cards)
 function cardOneHandler() {
+    location.hash = "home";
     homeLink.classList.add("active");
     serviceLink.classList.remove("active");
     contactLink.classList.remove("active");
@@ -82,6 +83,7 @@ function cardOneHandler() {
 }
 
 function cardTwoHandler() {
+    location.hash = "services";
     homeLink.classList.remove("active");
     serviceLink.classList.add("active");
     contactLink.classList.remove("active");
@@ -89,6 +91,7 @@ function cardTwoHandler() {
 }
 
 function cardThreeHandler() {
+    location.hash = "rates";
     homeLink.classList.remove("active");
     serviceLink.classList.remove("active");
     contactLink.classList.add("active");
