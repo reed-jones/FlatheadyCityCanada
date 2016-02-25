@@ -73,7 +73,7 @@ var cardThree = '\
     </p>\
 </div>';
 
-$(function(){
+/*$(function(){
   
   // Bind an event to window.onhashchange that, when the hash changes, gets the
   // hash and adds the class "selected" to any matching nav link.
@@ -94,10 +94,10 @@ $(function(){
   // the event now, to handle the hash the page may have loaded with.
   $(window).hashchange();
   
-});
+});*/
 
 //Show and hide cards (change text of cards)
-/*function cardOneHandler() {
+function cardOneHandler() {
     //http://benalman.com/code/projects/jquery-hashchange/examples/hashchange/
     location.hash = "home"; // back button not yet ready for primetime
     document.title = "Flathead City - Aftermarket Parts and Repairs - Home"; // yadda yadda
@@ -123,7 +123,7 @@ function cardThreeHandler() {
     serviceLink.classList.remove("active");
     contactLink.classList.add("active");
     card.innerHTML = cardThree;
-}*/
+}
 
 homeLink.addEventListener('click', cardOneHandler);
 
