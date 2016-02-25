@@ -73,34 +73,57 @@ var cardThree = '\
     </p>\
 </div>';
 
+$(function(){
+  
+  // Bind an event to window.onhashchange that, when the hash changes, gets the
+  // hash and adds the class "selected" to any matching nav link.
+  $(window).hashchange( function(){
+    var hash = location.hash;
+    
+    // Set the page title based on the hash.
+    document.title = "Flathead City - Aftermarket Parts and Repairs - Home";
+    
+    // Iterate over all nav links, setting the "selected" class as-appropriate.
+    $('nav a').each(function(){
+      var that = $(this);
+      that[ that.attr( 'href' ) === hash ? 'addClass' : 'removeClass' ]( 'active' );
+    });
+  })
+  
+  // Since the event is only triggered when the hash changes, we need to trigger
+  // the event now, to handle the hash the page may have loaded with.
+  $(window).hashchange();
+  
+});
+
 //Show and hide cards (change text of cards)
-function cardOneHandler() {
+/*function cardOneHandler() {
     //http://benalman.com/code/projects/jquery-hashchange/examples/hashchange/
     location.hash = "home"; // back button not yet ready for primetime
-    document.title = "Flathead City - Aftermarket Parts and Repairs - Home" // yadda yadda
+    document.title = "Flathead City - Aftermarket Parts and Repairs - Home"; // yadda yadda
     homeLink.classList.add("active");
     serviceLink.classList.remove("active");
     contactLink.classList.remove("active");
-    card.innerHTML = cardOne
+    card.innerHTML = cardOne;
 }
 
 function cardTwoHandler() {
     location.hash = "services"; // back button not yet ready for primetime
-    document.title = "Flathead City - Aftermarket Parts and Repairs - Services" // yadda yadda
+    document.title = "Flathead City - Aftermarket Parts and Repairs - Services"; // yadda yadda
     homeLink.classList.remove("active");
     serviceLink.classList.add("active");
     contactLink.classList.remove("active");
-    card.innerHTML = cardTwo
+    card.innerHTML = cardTwo;
 }
 
 function cardThreeHandler() {
     location.hash = "contact"; // back button not yet ready for primetime
-    document.title = "Flathead City - Aftermarket Parts and Repairs - contact" // yadda yadda
+    document.title = "Flathead City - Aftermarket Parts and Repairs - contact"; // yadda yadda
     homeLink.classList.remove("active");
     serviceLink.classList.remove("active");
     contactLink.classList.add("active");
-    card.innerHTML = cardThree
-}
+    card.innerHTML = cardThree;
+}*/
 
 homeLink.addEventListener('click', cardOneHandler);
 
