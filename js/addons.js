@@ -99,7 +99,7 @@ var cardThree = '\
 //Show and hide cards (change text of cards)
 function cardOneHandler() {
     //http://benalman.com/code/projects/jquery-hashchange/examples/hashchange/
-    location.hash = "home"; // back button not yet ready for primetime
+    //location.hash = "home"; // back button not yet ready for primetime
     document.title = "Flathead City - Aftermarket Parts and Repairs - Home"; // yadda yadda
     homeLink.classList.add("active");
     serviceLink.classList.remove("active");
@@ -108,7 +108,7 @@ function cardOneHandler() {
 }
 
 function cardTwoHandler() {
-    location.hash = "services"; // back button not yet ready for primetime
+    //location.hash = "services"; // back button not yet ready for primetime
     document.title = "Flathead City - Aftermarket Parts and Repairs - Services"; // yadda yadda
     homeLink.classList.remove("active");
     serviceLink.classList.add("active");
@@ -117,8 +117,8 @@ function cardTwoHandler() {
 }
 
 function cardThreeHandler() {
-    location.hash = "contact"; // back button not yet ready for primetime
-    document.title = "Flathead City - Aftermarket Parts and Repairs - contact"; // yadda yadda
+    //location.hash = "contact"; // back button not yet ready for primetime
+    document.title = "Flathead City - Aftermarket Parts and Repairs - Contact"; // yadda yadda
     homeLink.classList.remove("active");
     serviceLink.classList.remove("active");
     contactLink.classList.add("active");
