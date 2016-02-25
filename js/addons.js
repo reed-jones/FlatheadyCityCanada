@@ -75,7 +75,7 @@ var cardThree = '\
 
 //Show and hide cards (change text of cards)
 function cardOneHandler() {
-    location.hash = "home";
+    //location.hash = "home"; // back button not yet ready for primetime
     homeLink.classList.add("active");
     serviceLink.classList.remove("active");
     contactLink.classList.remove("active");
@@ -83,7 +83,7 @@ function cardOneHandler() {
 }
 
 function cardTwoHandler() {
-    location.hash = "services";
+    //location.hash = "services"; // back button not yet ready for primetime
     homeLink.classList.remove("active");
     serviceLink.classList.add("active");
     contactLink.classList.remove("active");
@@ -91,7 +91,7 @@ function cardTwoHandler() {
 }
 
 function cardThreeHandler() {
-    location.hash = "rates";
+    //location.hash = "rates"; // back button not yet ready for primetime
     homeLink.classList.remove("active");
     serviceLink.classList.remove("active");
     contactLink.classList.add("active");
