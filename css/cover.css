@@ -29,6 +29,11 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+  height: 100%;
+  background-color: #333;
+  background-image: url(../img/SAM_3326.JPG);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */

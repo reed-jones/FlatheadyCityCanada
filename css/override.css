@@ -1,11 +1,4 @@
-﻿html,body {
-  height: 100%;
-  background-color: #333;
-  background-image: url(../img/SAM_3326.JPG);
-  background-size: cover;
-  background-attachment: fixed;
-}
-
+﻿
 nav > .active {
     text-shadow: 0 0 5px #000000,  0 0 5px #000000;
 }
