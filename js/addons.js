@@ -29,6 +29,7 @@ var cardTwo = '\
         35 Years Experience<br />\
     </p>\
     <p>***********************</p>\
+    <p>\
         Metal Polishing\
     </p>\
     <p>***********************</p>\
