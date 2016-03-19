@@ -43,3 +43,7 @@ footer {
   height: 60px;
   opacity: 0.6;
 }
+
+.service-card {
+  position:relative;
+}
