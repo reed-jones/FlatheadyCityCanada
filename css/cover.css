@@ -159,3 +159,46 @@ body {
     width: 42rem;
   }
 }
+
+nav > .active {
+    text-shadow: 0 0 5px #000000,  0 0 5px #000000;
+}
+
+.masthead-brand, .cover-heading {
+    text-shadow: 0 0 25px #000000,  0 0 25px #000000,  0 0 25px #000000,  0 0 25px #000000;
+}
+
+.card-inverse
+{
+    background-color: #111;
+    border-color: #111;
+    opacity:0.9;
+    box-shadow:0 0 15px #000;
+}
+
+.email {font-size: 1.5em;}
+
+/* less than 75 */
+@media (max-width: 74.9em) { .email {font-size: 1.5em;} }
+
+/* less than 62 */
+@media (max-width: 61.9em) { .email {font-size: 1.4em;} }
+
+/* less than 48 */
+@media (max-width: 47.9em) { .email {font-size: 1em;} }
+
+/* less than 34 */
+@media (max-width: 33.9em) { .email {font-size: .8em;} }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 60px;
+  opacity: 0.6;
+}
+
+.service-card {
+  position:relative;
+  margin-top: 75px;
+}
