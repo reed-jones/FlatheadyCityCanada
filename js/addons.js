@@ -27,6 +27,8 @@ var cardTwo = '\
         Certified<br />\
         All Processes<br />\
         35 Years Experience<br />\
+    </p>\
+    <p>***********************</p>\
         Metal Polishing\
     </p>\
     <p>***********************</p>\
